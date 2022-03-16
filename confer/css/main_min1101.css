@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+	@media(min-width: 1101px){
+		header {width: 100%; height: 100vh; min-height: 900px;} 
+		#lowerheader >div>p {padding: 5px; background: rgba(255, 255, 255, 0.3); display: inline-block;}
+		#lowerheader {width: 80%; max-width: 1200px; height: 400px; margin: 10% auto; color: #fff; text-align: right; overflow: hidden;}
+		#forh1 {width: 380px; height: 20px; margin: -110px 0 100px 70% !important; background: linear-gradient(to left, rgba(80, 90, 221, 1), rgba(223,66,177,1));}
+		/**-----------FOR slider menu END-------------**/
+
+		.innerwrap {width: 95%; max-width: 1200px; margin: 0 auto; padding: 90px 0px;}
+		
+		#sec01 > .innerwrap {display: flex;}
+		#sec0101 {width: 50%;}
+		#sec0102 {width: 40%; height: 380px;}
+		#sec0101 > div {padding: 10px 0px; border-bottom: 2px solid gray; width: 150px;}
+		#sec0102 > img {width: 100%; height: 100%;}
+
+		#sec02 >.innerwrap {display: flex; flex-flow: row wrap; align-content: center; justify-content: space-between;}
+		#sec0201 {width: 20%; padding: 50px 0px;}
+		#sec0202 {width: 70%; display: flex; flex-flow: row wrap; align-content: center; justify-content: space-between; padding: 10px;}
+		#sec0202 > div {width: 18%; height: 140px; border: 1px solid #fff; text-align: center; padding: 13px 0px;}
+
+		#sec03 {text-align: center;}
+		#sec0301 {margin: 40px 0px;}
+		#sec0302 {display: flex; flex-flow: row wrap; align-content: space-evenly; justify-content: space-evenly;}
+		#sec0302 > div {width: 31%; height: 330px; margin: 10px 0px; border-radius: 10px; overflow: hidden; position: relative;}
+		#sec0302 > div > img {width: 100%; height: 100%;}
+		
+		#sec04 .innerwrap {display: flex; flex-flow: column wrap; align-content: center;}
+		#sec0402 {width: 520px; background: rgba(255, 255, 255, 0.5); border-radius: 10px; display: flex; flex-flow: row wrap; justify-content: space-evenly; margin: 60px auto; position: relative; overflow: hidden; padding: 3px 0px;}
+		
+		#sec0402 > div {width: 33%; padding: 30px 10px; text-align: center;}
+		.sec040202 {border-right: 1px solid #fff; border-left: 1px solid #fff;}
+		#sec0403 {width: 100%;}
+		.sec040301 {width: 100%; height: 140px; margin: 10px 0px; border: 1px solid #fff; border-radius: 10px; display: flex; flex-flow: row wrap; justify-content: space-evenly; align-content: center;}
+		.sec040301:hover {border: 1px solid #df42b1;}
+		.sec040301 > div {display: flex; flex-flow: column wrap; justify-content: center;}
+		.sec040302 {width: 110px; height: 110px; border-radius: 70%; overflow: hidden;}
+		.sec040302 > img {width: 100%; height: 100%; object-fit: cover;}
+		.sec040303, .sec040304 {width: 34%;}
+		#sec04 .btn2 {width: 280px; text-align: center; margin: 40px auto;}
+
+		#sec0502 {margin: 60px 0 0 0px; display: flex; flex-flow: row wrap; justify-content: space-evenly;}
+		#sec0502 > div {width: 31%; background-color: #fff; padding: 0px 0 40px 0px; text-align: center; border-radius: 10px; display: flex; flex-flow: column wrap;}
+		#sec0502 > div:hover {transform: scale(1.05); transition: 0.7s;}
+		#sec0502 > div > img {width: 70px; height: 70px; margin: 20px auto;} 
+		#sec05 .btn1 {width: 55%; margin: 20px auto;}
+
+		#sec0602 {width: 100%; margin: 50px 0px; display: flex; flex-flow: row wrap;}
+		.sec060201 {width: 25%; height: 220px; border: 1px solid #9293bc;}
+		.sec060201 img {width: 150px; height: 100px; margin: 25%;  opacity: 0.4;}
+		.sec060201 img:hover {opacity: 0.9; cursor: pointer;}
+
+
+		#sec0603 {display: flex; justify-content: space-between;}
+		.sec060301 {width: 48%; border-radius: 10px; padding: 35px 30px; background-color: rgba(255, 255, 255, 0.1); overflow: hidden;  line-height: 30px;}
+		.sec060301 > div {margin: 25px 0px 0 0px;}
+		.reviewerbox {width: 60px; height: 60px; margin: 0 10px 0 0px; background-color: tan; float: left; border-radius: 70%; overflow: hidden;}
+		.reviewerbox img {width: 100%; height: 100%;}
+
+		#sec0702 {display: flex; justify-content: space-evenly; text-align: center;}
+		.sec070201 {width: 30%; height: 475px; background-color: #fff; margin: 40px 0px; border-radius: 10px;  position: relative;}
+		.sec070201  >div {overflow: hidden; border-radius: 10px;}
+		.sec070201  >div> img {width: 100%; height: 45%;}
+		.sec070201  >div> img:hover {transform: scale(1.2); transition: 0.8s;}
+		.sec07icon {width: 60px; height: 60px; background: linear-gradient(to left, rgba(80, 90, 221, 1), rgba(223,66,177,1)); border-radius: 70% !important; border: 2px solid #fff; position: absolute; bottom: -25px; left: 41%;}
+		.sec07icon:hover {cursor: pointer; background:linear-gradient(to left, #951d85, #3724ac); color:#fff;}
+		.sec07icon .fa-long-arrow-alt-right {color: #fff; padding: 18px;}
+
+		#sec0802 {display: flex; flex-flow: row wrap; margin: 40px auto; justify-content: space-between;}
+		#sec080201 {width: 25%;}
+		#sec080201 > .fontstyle11 {margin: 30px 0 5px 0px;}
+		#sec080202 {width: 60%; border-radius: 10px; overflow: hidden; padding: 30px; background-color: rgba(255, 255, 255, 0.05);}
+		#sec080202 >div {width: 100%; display: flex; flex-flow: row wrap; justify-content: space-between;}
+		.sec080203 {width: 49%; margin: 5px 0px; border-bottom: 1px solid #fff; background-color: transparent;}
+		.sec080204 {width: 100%; margin: 5px 0px; border-bottom: 1px solid #fff; background-color: transparent;}
+		#sec080201 > .fontstyle9 {font-size: 1.8rem; font-weight: bold;}  
+
+		input[type="text"] {width: 100%; padding: 10px; background-color: transparent; border: none; color: #999;}
+	}

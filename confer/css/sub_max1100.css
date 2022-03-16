@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+	@media all and (min-width: 768px) and (max-width: 1100px){
+
+	header {width: 100%; height: 500px;}
+
+	.imgwrap {width: 80px; height: 80px; border-radius: 70%;}
+
+	#wrap {width: 100%; background-color: #151853;}
+	#subsecwrap {width: 85%; margin: 0 auto; display: flex; flex-flow: row wrap;}
+	#leftwrap {width: 100%;}
+	#rightwrap {width: 100%;}
+	#leftwrap .innerwrap {padding: 60px 0px;}
+	#rightwrap .innerwrap {padding: 50px 0px; width: 70%; margin: 0 auto;}
+	#subsec06 > .innerwrap {padding: 70px 0px;}
+
+	#lowerheader {max-width: 1200px; margin: 13%;}
+	#lowerheader01 {display: flex; color: #fff; padding: 5px 0px;}
+	.fa-chevron-right {font-size: 1.7rem; margin: 5px;}
+
+	#subsec01 img {width: 100%; border-radius: 10px;}
+	.subsec0100 {color: #9293bc; margin: 20px 0px;}
+	.subsec0100 i {font-size: 1.5rem; margin: 0 3px 0 15px;}
+	.subsec0101 {border-left: 3px solid #df42b1; padding: 10px; margin: 0 0 0 20px;}
+
+	#subsec0201 {width: 100%; display: flex; justify-content: space-between; margin: 30px 0px;}
+	#subsec0201 img {width: 49%; border-radius: 10px;}
+	#subsec0203 {width: 100%; border-bottom: 1px solid #5d5e8d; padding: 30px 0px;}
+	#subsec0203 i {font-size: 1.6rem; color: #505add; margin: 0px 5px 0 0px;}
+	#subsec0203 span {font-size: 1.7rem; color: #9293bc;} 
+
+	#subsec03 .innerwrap {width: 100%; display: flex; flex-flow: row wrap;}
+	#subsec0301 {width: 100%; border-radius: 10px; box-shadow: 0px 0px 20px #9293bc; margin: 40px 0px; padding: 30px; display: flex; align-content: center;}
+	.subsec030101 {width: 220px; height: 120px; border-radius: 60%; border: 3px solid #505add; overflow: hidden;}
+	.subsec030101 img {width: 100%; height: 100%;}
+	.subsec030102 {margin: 0px 0 0 20px;}
+	#subsec0302 {width: 100%; display: flex; flex-flow: row wrap; justify-content: space-between;}
+	#subsec0302 > div {display: flex; flex-flow: row wrap; align-content: center; padding: 20px 0px;}
+	.subsec030202 {margin: 10px 15px;}
+	#subsec0302 .fontstyle6 {margin: 4px 0px;}
+
+	#subsec0400 {display: flex; flex-flow: row wrap; justify-content: safe flex-end;}
+	#subsec0400 > div {border-bottom: 1px solid #5d5e8d; padding: 20px 0px; display: flex; align-items: center;}
+	.subsec040101 {margin: 0px 30px;}
+	#subsec0401, #subsec0403 {width: 100%; margin: 10px 0px;}
+	#subsec0402 {width: 80%; margin: 10px 0px;}
+	.replybox {display: flex;}
+	.replybox i {color: #9293bc; font-size: 1.4rem; line-height: 20px; margin: 15px 10px 15px 0px;}
+
+	#subsec0501 {display: flex; flex-flow: row wrap;  justify-content: space-between;}
+	.subsec050101 {width: 49%;}
+	.subsec050102 {width: 100%;}
+	input[type=text] {width: 100%; padding: 15px 0px; background-color: transparent; border: none; color: #999; border-bottom: 1px solid #9293bc !important;}
+	input[type=search] {padding: 10px; border: none; width: 100%;}
+	button {border: none; padding: none; background: linear-gradient(120deg, #505add 0%, #df42b1); cursor: pointer;}
+
+	.fa-search {font-size: 20px; color: #fff; background-color: transparent; padding: 0px 10px;}
+
+	.subsec0601 {display: flex;}
+	#subsec07 > .innerwrap {display: flex; flex-flow: column wrap; align-items: center; text-align: center; box-shadow: 0 0 20px #fff; border-radius: 10px;}
+	.subsec0701 {width: 110px; height: 110px; border-radius: 70%; overflow: hidden; border: 4px solid #df42b1;}
+	.subsec0701 > img {width: 100%; height: 100%;}
+	.subsec0702 {padding: 20px;}
+	.subsec0703 {display: flex;}
+	.subsec0703 i {width: 40px; height: 40px; border: 1px solid #fff; border-radius: 70%; margin: 0 3px; font-size: 1.7rem;color: #fff; line-height: 40px;}
+	.subsec0703 i:hover {background-color: #505add; cursor: pointer;}
+
+	.subsec0801 {display: flex; align-items: center; margin: 20px 0px;}
+	.subsec0801 > img {width: 100px; height: 90px; border-radius: 10px;}
+	.subsec080101 {width: 60%; margin: 0px 10px;}
+	.subsec080101:hover {text-decoration: underline; text-decoration-color: #505add; cursor: pointer;}
+	#subsec1101 {width: 100%; display: flex; flex-flow: row wrap; justify-content: space-evenly;}
+	#subsec1101 img {width: 30%; height: 140px; border-radius: 7px; margin: 7px 0px;}
+	#subsec1101 img:hover {opacity: 0.6; cursor: pointer;}
+	}

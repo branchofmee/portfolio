@@ -1,0 +1,121 @@
+
+
+:animated 셀렉터는 animate 되는 요소를 찾습니다.
+※ 메서드가 아닌 셀렉터 입니다.
+
+
+
+
+.is()
+선택한 요소에서 주어진 선택자가 있는지 판별합니다.
+
+문법(Syntax)
+$("선택자").is("선택자");
+$("선택자").is("변수");
+$("선택자").is("함수");
+
+정의(Definition)
+선택한 요소에서 주어진 선택자가 있는지 판별하여 있으며 true를 반환합니다.
+
+
+
+마우스휠 이벤트 시, 세로 스크롤량 (= deltaY속성
+
+
+
+
+
+
+해당 if문에서 탈출하란 뜻입니다. 조건문이나 반목문에서 return 또는 break 를 사용하면 해당 구문에서 탈출합니다.
+예를 들어 업데이트문 맨위에 if (player == null) return; 이런 구문을 썼을때 true면 return 후 아래코드들 실행X, false면 아래코드를 실행 하란 의미로 자주 사용합니다.
+그리고 아래 두 구문은 같은 의미입니다.
+if (player == null)
+return;
+
+if (player != null)
+
+
+
+
+
+
+
+흠흠... 윗분에 대한 답이 되어버리는데, return, break 차이는 함수를 빠져 나가느냐, 구문을 빠져나가느냐 차이입니다.
+이거 엄청나게 차이가 큰 겁니다. 이해하기 쉽게 C++코드로 설명을 드리겠습니다.
+
+Case 1.
+
+int main()
+{
+ int i;
+ for(i = 0; i < 10; i++)
+ {
+  if(i == 4)
+  break;
+ }
+ cout << i;
+ return 0;
+}
+
+이거 출력 하면 뭐가 나올까요? 정답은 4가 나옵니다.
+for문 내 if구문에서 break를 만나 for 구문을 빠져 나왔을 뿐 함수를 빠져나가진 않습니다. for문을 빠져 나가 아래 구문 cout << i; 를 실행한 것이죠.
+
+Case2.
+
+int main()
+{
+ int i;
+ for(i = 0; i < 10; i++)
+ {
+  if(i == 4)
+  return 0;
+ }
+ cout << i;
+ return 0;
+}
+
+이건 뭐가 출력이 될까요? 아무것도 출력이 되지 않습니다.
+for문 내 if구문 안의 return 0 를 만나 int main() 함수를 빠져나간 경우이므로 아래의 cout << i; 까지 내려가지 않습니다.
+
+차이를 잘 모르시는 분들이 많으시던데, 의외로 이런 어마어마한 차이가 있습니다.
+
+
+
+
+
+
+
+('click', function(e) {
+e.preventDefault();}
+
+에서 function(e)의 용도가 정확히 뭔가요?
+구글링해보면 'event 관련 object를 받는 argument다'라고 하는데
+그러니까 즉 사용자가 한 click이라는 event가 argument가 되고 e가 이를 받는 parameter인건가요?
+
+addEventListner 에서 function(e) 가 쓰여있는 위치에는 이벤트 핸들러가 주어져야 합니당.
+이벤트가 발생했을 때 실행되는 함수가 놓여져야 한다는 거죵.
+그래서 click 이벤트가 발생하면 function(e) {e.preventDefault();} 가 실행됩니다. 
+그리고 이벤트가 발생하면 이벤트 객체가 생성이 되는데, 그 이벤트 객체가 e 라는 파라미터에 할당이 됩니당.
+그러므로 말씀하신 내용으로 이해하셔도 될거에용. 이 이벤트 객체가 필요한 이유는 발생한 이벤트에 관한 정보들이 담기기 때문에
+이 이벤트 객체를 이용하여 이벤트 객체의 여러 프로퍼티들을 활용할 수 있습니당.
+예를 들어 이벤트가 어떤 타입인지, 또 이벤트를 처리하는 요소(e.currentTarget)가 무엇인지 등등이요
+
+  
+event관련 object를 받는 argument입니다.
+
+자바스크립트는 event.target(=e.target) 속성을 통해 이벤트가 발생한 대상(요소)의 데이터 값을 가져올 수 있다.
+
+$('a').click(function(e){console.log(e.target);});
+//a요소 클릭시 이벤트가 발생하며, 그 이벤트가 발생할 때마다 이벤트의 대상인 a요소 출력한다.
+
+데이터 속성 값을 지정한 요소의 이벤트 값은 
+<a data-id=1 onClick={function(e){e.target.dataset.id}.bind(this)}></a>
+같이 dataset과 data-뒤에 지정한 이름 매치해서 사용가능하다.
+
+
+
+
+
+
+
+

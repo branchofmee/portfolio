@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+    * {margin:0; padding:0; box-sizing: border-box;}
+    li, ol, ul {list-style: none;}
+    html {font-size: 10px}
+    * {letter-spacing: -1px;}
+
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+    * {font-family:'Lato', 'Noto Sans KR', sans-serif;}
+    
+    #wrap {width: 100%; height: auto;}
+    h2 {font-size: 4.5rem; color: #242424;}
+    h4 {font-size: 3rem;}
+    h5 {font-size: 1.8rem; color: #242424; margin: 10px 0px;}
+    .fontstyle0 {font-size: 1.9rem; color: #555;  margin: 10px 0px 50px 0px;}
+    .fontstyle1 {font-size: 1.4rem; color: #555;  margin: 10px 0px 10px 0px;}
+    .fontstyle2 {font-size: 1.4rem; color: #555;}
+    .fontstyle3 {font-size: 1.7rem; color: #242424;  margin: 5px 0px; font-weight: bold;}
+    
+
+    .innerwrap {width: 85%; max-width:1200px; margin:0px auto; padding: 70px 0px;}
+    
+    .textbox {margin: 30px auto; text-align: center;}
+    .product {width: 145px !important; margin:0px 5px;}
+    .product > img {width: 145px; height: 210px;}
+
+    header {width:100%; padding: 10px 18px; display : flex; flex-flow: row; justify-content: space-between; background-color: #a7a39a; position: sticky; top:0px; z-index: 9000;}
+    #header1 {width: 30%;}
+    #header1 > img {width:56px; margin: 5px;}
+    #header2 {width: 170px; margin: auto 0px; color: #fff; font-size: 1.5rem; font-weight: bolder; display: flex; align-items: center;}
+    #header3 {margin: 0 0 0 25px;}
+    #header3 > button {width: 80px; background-color: #ffeb60; border: none; border-radius: 20px; padding: 8px 20px; font-size: 1.1rem;}
+    #header3 > button:hover {cursor: pointer;}
+
+    #slider {position: relative;}
+    #slider1 {background-color: #a7a39a;}
+    #slider1-1 {display: flex; flex-flow: column;}
+    
+    #slider2 img {width: 605px;}
+    #slider1-1 img:first-of-type {width: 400px; margin: 70px 0px 30px 0px;}
+    #slider1-1  img:nth-of-type(2) {width : 370px; margin: 0px 0px;}
+
+    #subsection1-3 {padding: 70px 0px;}
+    #subsection1-3-1 {text-align: center;}
+    #subsection1-3-1-1 { display: flex; flex-flow: row wrap; justify-content: space-evenly;}
+    
+
+    .ranking {width: 330px; height: 430px; background-color: tan; display: flex; flex-flow: row wrap; justify-content: center;  border-top-left-radius: 20px; border-top-right-radius: 20px; box-shadow: 2px 2px 20px rgb(0 0 0 / 6%), 2px 2px 10px rgb(0 0 0 / 4%); position: relative;}
+    .imgwrap {width: 200px; height: 200px; overflow: hidden; border-radius: 70%; background-color: #fff; margin:30px 0 20px 0px;}
+    .imgwrap img{width: 139px; margin: 55px 15%;}
+    .ranking-2 {width:100%; background-color: #fff; text-align: center; border-top-left-radius: 30px; border-top-right-radius: 30px; padding: 20px;}
+    .ranking-2-2 {display: flex; margin:40px 0 0 0px;}
+    .ranking-2-2 > div {width:50%;}
+    .rank {position: absolute; top:-10px; left:30px;}
+    .rank img {width: 28px;}
+
+
+    
+    .section1-3-imgbox {width: 93px; height: 93px; overflow: hidden; border-radius: 70%; background-color: #f7f7f7; margin: 0 10px;}
+    .section1-3-imgbox img {width: 70px; margin: 23px 13%;}
+    .section1-3-2-1 {display: flex; flex-flow: column;}
+    .section1-3-2-2-2 p {margin: 0px 10px;}
+
+    footer {background-color: #fff;}
+    footer .innerwrap {padding: 10px 0 90px 0px;}
+    #footer-1 {display: flex; justify-content: space-between; align-items: center;}
+    #footer1-1 {display: flex;}
+    #footer1-1 img {width: 25px; margin: 0 10px 0 0px;}
+    #footer1-1 img:hover {cursor: pointer;}
+    #footer-2 {margin: 5px 0px;}
+    #footer2-0 {display: flex; align-items: center;}
+    #footer2-0 img {width: 14px; height: 14px; margin: 0px 5px;}
+    #footer2-0:hover {cursor: pointer;}
+    #footer-2 p {font-size: 1.3rem; color: #a5a5a5; margin: 10px 0px;}
+    #footer-3 {margin: 25px 0px;}
+    #footer-3 span, #footer-4 p {font-size: 1.3rem; color: #6f6f6f;}
+    #footer-3 img {width: 14px; height: 14px; margin: 0px 10px 0 0px; padding: 2px 0 0 0px;}
+    #footer-3 span:hover {cursor: pointer;}
+
+    #popup:hover {cursor: pointer;}
+
+    .invisible {display: none;}
+    .visible {display : block;}
+    .showthis {opacity: 0; transform: translate(0px, 40px); transition: all ease 1s;}

@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+@media(min-width: 991px){
+    html {font-size: 10px;}
+    * {letter-spacing: -1px;}
+
+    h2 {font-size: 4.5rem; color: #242424;}
+    .fontstyle1 {font-size: 2.1rem; color: #555;  margin: 20px 0px;}
+
+    .innerwrap {width: 85%; max-width:1200px; margin:0px auto; padding: 70px 0px;}
+
+    #slider {position: relative;}
+    #slider1 {background-color: #a7a39a;}
+    #slider1-1 > img {width : 320px; margin: 30px 0px;}
+    #slider1-2 > img {width : 180px; max-width: 180px; margin: 30px 0px;}
+    #slider2 {background-color: #9f9a8f;}
+    #slider3 img {width: 700px; position: absolute; top: 10px; right: 10%;}
+
+    #section1-1 {width:100%; text-align: center; display: flex; flex-flow: row wrap; justify-content: space-evenly;}
+    .section1-1-1 {width:33.3%; text-align: center;}
+
+    #section3-1 {margin: 0 auto; width:65%;}
+    #section3 video {width:100%; margin: 30px 0px;}
+
+    #section5 {background-color: #a7a39a;}
+    #section5-1 {display: flex; flex-flow: row nowrap; justify-content: space-evenly; align-items: center;  padding: 0px !important;}
+    #section5-1 > div{width: 23%;}
+    #section5-1 > div > img {width: 100%;}
+    #section5-1 p {font-size: 1.3rem; padding: 7px 20px; border: 1px solid #fff; border-radius: 20px; color: #fff;}
+
+    #section7-1 img {width: 100%;}
+    #section7-1-1 {width: 900px; height: 465px; margin: 0 auto; position: relative;
+        display: flex; justify-content: center; align-items: end;}
+    #section7-1-1-1 {width: 360px; position: relative;}
+    #section7-1-1-1 > div {width: 110%; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -5%);}
+    #section7-1-1-2 {width: 165px; position: absolute; top: 10%; left: 10%;}
+    #section7-1-1-3 {width: 165px; position: absolute; top: 10%; right: 10%;}
+    #section7-1-1-4 {width: 165px; position: absolute; top: 55%; left: 0%;}
+    #section7-1-1-5 {width: 165px; position: absolute; top: 55%; right: 0%;}
+
+    #section8-1 {display: flex; justify-content: space-around;}
+    .section8-1-1 {width: 30%; background-color: #fff; border-radius: 20px; padding: 20px;}
+    .section8-1-2 {width: 30%; display: flex; flex-flow: column wrap; justify-content: center; align-items: center;}
+
+    #section9-2, #section9-3, #section9-4 {width: 93%; margin: 0 auto; padding: 70px 0px; display: flex; flex-flow: row wrap; justify-content: space-between; position: relative;}
+    
+    .section9-inner1 {width:50%; height: 230px; display: flex; flex-flow: column; justify-content: space-between;}
+    .section9-inner1 img {width: 45px; margin: 10px 0px;}
+    .section9-inner3 {width: 50%; position: absolute; bottom: 20%;}
+
+    .section9-inner2 {width: 320px; height: 680px; overflow: hidden;}
+    .section9-inner2-1 {position: relative;}
+    .section9-inner2-1 > img {position: absolute; top:0; left:0;}
+    .section9-inner2 img {width: 320px; height: 680px;}
+    .inner2-1-1 {position: absolute; top:0; left:0;}
+    .inner2-1-1 > img {border-radius: 50px;}
+    .inner2-1-1 > video {width:320px; height: 680px; border-radius: 50px;}
+
+    #section10 .innerwrap{display: flex; flex-flow: row warp; justify-content: space-around; padding: 100px 0px;}
+    #section10-1 {width: 400px; height: 400px; margin: -150px 0 0 0px;}
+    #section10-1 iframe {width: 100%; height: 100%;}
+
+    #section11-1 {width: 73%;}
+    #popup {width: 445px; margin: 15px auto; border-radius: 30px; color: #fff; background-color: #333333;  text-align: center; font-size: 1.5rem; line-height: 60px; font-weight: bold; z-index: 100; position: sticky; bottom: 15px;}
+}

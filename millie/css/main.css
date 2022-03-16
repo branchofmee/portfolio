@@ -1,0 +1,192 @@
+@charset "utf-8";
+
+    * {margin:0; padding:0; box-sizing: border-box;}
+    li, ol, ul {list-style: none;}
+    html {font-size: 10px;}
+
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+    * {font-family:'Lato', 'Noto Sans KR', sans-serif;}
+    
+    .fontstyle2 {font-size: 1.8rem; font-weight: bold; margin: 5px 0px;}
+    .fontstyle3 {font-size: 1.4rem; color: #6f6f6f; margin: 20px 0px;}
+    .fontstyle4 {font-size: 1.5rem; font-weight: bolder; color: #242424; margin: 5px 0px;}
+    .fontstyle5 {font-size: 1.4rem; color: #6f6f6f;}
+    .line {margin: 0px 5px;}
+    .sectiontext {margin: 5px 0px; display: flex; flex-flow: row; align-items: center;}
+    .plusicon {width: 1.3rem; height: 1.3rem; display: inline-block; margin: 0px 5px 0px 0px;}
+    .plusicon > img{height: 100%;}
+    .fontstyle6 {font-size: 1.9rem; font-weight: bold; color: #242424; margin: 15px 0px;}
+    .fontstyle7 {font-size: 4rem; font-weight: bold; color: #242424; margin: 5px 0px;}
+    .fontstyle8 {font-size: 1.9rem; color: #6f6f6f; margin: 5px 5px 5px 0px;}
+    .fontstyle9 {font-size: 1.9rem; color: #242424; margin: 5px 0px;}
+    .fontstyle10 {font-size: 1.8rem; font-weight: bold; color: #6f6f6f; margin: 0px 15px; text-decoration:line-through;}
+    .fontstyle11 {font-size: 1.4rem; font-weight: bold; color: #6f6f6f; margin: 20px 0px;}
+    .fontstyle12 {font-size: 1.6rem; font-weight: bold; color: #242424; margin: 20px 0px;}
+    .fontstyle13 {font-size: 2rem; font-weight: bold; color: #242424; margin: 10px 0px;}
+    .fontstyle14 {font-size: 1.9rem; color: #242424;}
+    .fontstyle15 {font-size: 1.6rem; color: #fff; background-color: #242424; margin: 0px 10px 0 0px; width: 40px; border: 1px solid #000; border-radius: 15px; text-align: center;}
+    .fontstyle15-2 {font-size: 1.6rem; color: #242424; margin: 0px 10px 0 0px; width: 40px; border: 1px solid #000; border-radius: 15px; text-align: center;}
+    .fontstyle16 {font-size: 1.5rem; color: #555555;}
+    .fontstyle17 {font-size: 1.3rem; margin: 0px 5px; color: #fff; background-color: #242424; border: 1px solid #000; border-radius: 20px; padding: 5px 15px;}
+    .fontstyle17-1 {font-size: 1.3rem; margin: 0px 5px; color: #000; border: 1px solid #000; border-radius: 20px; padding: 5px 15px;}
+
+    #section1, #section3, #section7 {background-color: #f7f7f7;}
+    #section2, #section4, #section6, #section9, footer{background-color: #fff;}
+    #section8, #section11 {background-color: #ffeb60;}
+    #section10 {background-color: #ffe04b;}
+
+    #wrap {width: 100%; height: auto;}
+    
+    .textbox {margin: 30px auto; text-align: center;}
+    .product {width: 145px !important; margin:0px 5px;}
+    .product > img {width: 145px; height: 210px;}
+
+    header {width:100%; padding: 10px 18px; display : flex; flex-flow: row; justify-content: space-between; background-color: #a7a39a; position: sticky; top:0px; z-index: 9000;}
+    #header1 {width: 30%;}
+    #header1 > img {width:56px; margin: 5px;}
+    #header2 {width: 170px; margin: auto 0px; color: #fff; font-size: 1.5rem; font-weight: bolder; display: flex; align-items: center;}
+    #header3 {margin: 0 0 0 25px;}
+    #header3 > button {width: 80px; background-color: #ffeb60; border: none; border-radius: 20px; padding: 8px 20px; font-size: 1.1rem;}
+    #header3 > button:hover {cursor: pointer;}
+    
+    #section1 {width:100%;}
+    .section1-1-1 img {width:40%;}
+
+    #section2 {width:100%; padding: 80px 0px; overflow: hidden;}
+    
+    #section2-1 {
+    background: url(../img/section2-1.png) repeat-x;
+    background-size: contain;
+    width: 1000%;
+    height: 200px;
+    position: relative;
+    animation: leftslide 110s linear infinite;
+    margin: 10px 0px;
+    }
+    #section2-2 {
+        background: url(../img/section2-2.png) repeat-x;
+        background-size: contain;
+        width: 1000%;
+        height: 200px;
+        position: relative;
+        animation: rightslide 110s linear infinite;
+        margin: 10px 0px;
+    }
+    
+    #section2-3 {
+        background: url(../img/section2-3.png) repeat-x;
+        background-size: contain;
+        width: 1000%;
+        height: 200px;
+        position: relative;
+        animation: leftslide 110s linear infinite;
+        margin: 10px 0px;
+    }
+    @keyframes leftslide {
+        0% {left: 0%;}
+        5% {left: -10%;}
+        10% {left: -20%;}
+        15% {left: -30%;}
+        20% {left: -40%;}
+        25% {left: -50%;}
+        30% {left: -60%;}
+        40% {left: -70%;}
+        45% {left: -80%;}
+        50% {left: -90%;}
+        55% {left: -100%;}
+        60% {left: -110%;}
+        65% {left: -120%;}
+        70% {left: -130%;}
+        75% {left: -140%;}
+        80% {left: -150%;}
+        85% {left: -160%;}
+        90% {left: -170%;}
+        95% {left: -180%;}
+        100% {left: -200%;}
+    }
+    
+    @keyframes rightslide {
+        0% {right: 200%;}
+        5% {right: 190%;}
+        10% {right: 180%;}
+        15% {right: 170%;}
+        20% {right: 160%;}
+        25% {right: 150%;}
+        30% {right: 140%;}
+        40% {right: 130%;}
+        45% {right: 120%;}
+        50% {right: 110%;}
+        55% {right: 100%;}
+        60% {right: 90%;}
+        65% {right: 80%;}
+        70% {right: 70%;}
+        75% {right: 60%;}
+        80% {right: 50%;}
+        85% {right: 40%;}
+        90% {right: 30%;}
+        95% {right: 20%;}
+        100% {right: 10%;}
+    }
+
+    #section4 .textbox {margin: 0 0 60px 0px;}
+    .section4-1 {margin: 0 auto;}
+    .section4-1 > div {margin: 25px 0px 60px 0px;}
+    .section4-1 ul {display: flex; flex-flow: row nowrap; overflow:hidden;}
+    #section5-1 p:hover {cursor: pointer;}
+    
+    #section6-1 {margin: 40px 0px}
+    #section6-1 span:hover {cursor: pointer;}
+    #section6-2 {margin: 20px 0px;}
+    #section6 ul {display: flex; flex-flow: row nowrap; overflow: hidden;}
+
+    #section7 .textbox {margin: 0 0 50px 0px !important;}
+    #section7 .innerwrap {padding: 70px 0px 0 0px !important;}
+    
+    .section8-1-1-2 {display: flex; align-items: center; padding: 10px 0px 0 0px;}
+    .section8-1-1-2 img{width: 60px; height: 30px; margin: 5px 0 0 0px;}
+    .section8-1-2 >div {display: flex; align-items: center;}
+    .borderbottom {border-bottom: 1px solid #fff;}
+    .section8-1-2-1 {width: 100px; border-radius: 70%; margin: 15px;}
+    .section8-1-2-1 img {width: 100%}
+
+    #section9 > .innerwrap {padding: 0px 0 60px 0px;}
+    #section9-1 {display: flex; flex-flow: row;}
+    .section9-1-1 >p {font-size: 1.5rem; text-align: center;}
+    .section9-1-1 {width: 33.33%; height: 90px; display: flex; flex-flow: column; justify-content: center; align-items: center;}
+    .section9-1-1:hover {cursor : pointer;}
+    .section9-1-1 img {width: 24px;}
+    .section9-inner3-1 {display: flex; margin: 25px 0px;}
+    .section9-inner3-1:hover {cursor: pointer;}
+    .sec9btn2 {background-color: #f7f7f7;}
+
+    #section11 .innerwrap {display: flex; flex-flow: column wrap; justify-content: center; align-items: center;}
+    #section11 h2 {text-align: center; margin: 0 0 50px 0px;}
+    .section11-1-0 {width: 100%; background-color: #fff; margin: 20px 0px; padding: 0px 20px; border-radius: 20px;}
+    .section11-1-1 {padding: 12px 0px; display: flex; justify-content: space-between; align-items: center;}
+    .section11-1-1 img {width: 25px;}
+    .section11-1-1 img:hover {cursor: pointer;}
+    .section11-1-2 {padding: 15px 0px; border-top: 1px solid #242424; }
+
+    footer .innerwrap {padding: 10px 0 90px 0px;}
+    #footer-1 {display: flex; justify-content: space-between; align-items: center;}
+    #footer1-1 {display: flex;}
+    #footer1-1 img {width: 25px; margin: 0 10px 0 0px;}
+    #footer1-1 img:hover {cursor: pointer;}
+    #footer-2 {margin: 5px 0px;}
+    #footer2-0 {display: flex; align-items: center;}
+    #footer2-0 img {width: 14px; height: 14px; margin: 0px 5px;}
+    #footer2-0:hover {cursor: pointer;}
+    #footer-2 p {font-size: 1.3rem; color: #a5a5a5; margin: 10px 0px;}
+    #footer-3 {margin: 25px 0px;}
+    #footer-3 span, #footer-4 p {font-size: 1.3rem; color: #6f6f6f;}
+    #footer-3 img {width: 14px; height: 14px; margin: 0px 10px 0 0px; padding: 2px 0 0 0px;}
+    #footer-3 span:hover {cursor: pointer;}
+
+    
+    #popup:hover {cursor: pointer;}
+
+    .invisible {display: none;}
+    .visible {display : block;}
+    .showthis {opacity: 0; transform: translate(0px, 40px); transition: all ease 1s;}
+    

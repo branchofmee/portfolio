@@ -1,0 +1,97 @@
+﻿@charset "utf-8";
+		*{margin: 0; padding: 0; box-sizing: border-box;}
+		ul, li, ol{list-style: none; margin: 0; padding: 0;}
+
+		.nav-up{top: -100px;}
+		#headertop{width: 100%; height: 100px; position:fixed; top:0; left: 0; opacity: 0.9; z-index: 999; background-color: #EDEDED; transition: top 0.2s ease-in-out; display:none;}
+		#headertop1{width: 1204px; height: 40px; margin: 0px auto;}
+		#headertop2{width: 1204px; height: 40px; margin: 0 auto;}
+		
+		#ht2{width: 320px; height: 40px; float: left;}
+		#ht2 li{float: left; margin:6px 15px 3px 0px; font-size: 11px;}
+		#ht2 li a{text-decoration: none; color: black; font-weight: bold;}
+
+		#htlogo{width: 300px; height: 40px; margin: 0px 0px 0 130px; float: left;}
+		#htlogo1{margin: 4px 21px 0 21px; float: left;}
+		#htlogo2{margin: 9px 21px 0 21px; float: left;}
+		#htlogo3{margin: 8px 21px 0 21px; float: left;}
+		#htlogo4{margin: 9px 21px 0 21px; float: left;}
+		#htlogo5{margin: 5px 21px 0 21px; float: left;}
+
+		#ht4{width: 150px; height: 40px; float: left;}
+		#htnav{float: left; width: 840px; height: 30px; margin: 7px 0 0 30px;}
+		#htnav ul li{float: left;}
+		#htnav ul li a{text-decoration: none; color: black; font-size: 18px; margin: 0 25px 0 35px;}
+
+		#ht5{width: 150px; height: 40px; float: right;}
+
+			/*여기까지 header top, 현재 display:none; 상태*/
+
+
+
+
+		header{width:100%; height:210px;  background-color:#fff; border-bottom:1px solid #d9d9d9;}
+		#headerbox{width: 1200px; height: 170px; margin: 0 auto; position: relative;}
+		#upperheader0{width:100%; height:40px; background-color: #EDEDED;;}
+		#upperheader{width: 1200px; height: 40px; margin: 0 auto; background-color: #EDEDED;}
+		#upperleftmenu{float: left; margin: 0 0 0 20px; padding: 13px 0px;}
+		#upperleftmenu li{float: left; margin:0px 15px 3px 0px; font-size: 11px;}
+		#upperleftmenu li a{text-decoration: none; color: black; font-weight: bold;}
+		#upperrightmenu{float: right; width: 510px; height: 26px; margin: 10px 0 0px;}
+		#upperrightmenu li{float: left; margin: 0px 3px 0px 3px;}
+		#upperrightmenu li a{text-decoration: none; color: gray; margin: 0 3px 0px 3px; font-size: 11px;}
+		#upperrightmenu div{width:1px; height:3px; margin:5px 0 0 0px;}
+		#upperrightmenu div img{width:1px; height:13px;}
+	
+		#logo{margin: 0 auto; padding: 30px 0 0 0px; width: 220px; height: 100px;}
+
+		#searchbox{width: 192px; height: 30px; float: right; position: absolute;  top:40px; right: 10px;  padding:4px 0 0 0px;}
+		#searchbox >div{width:17px; height: 17px; float: right; margin:0px 0 0 0px;}
+		input[type=text]{border-top: none; border-right: none; border-left: none; border-bottom: 1px solid #999999; 
+color: gray;}
+		#searchbox >div>img{width:100%; height:100%;}
+
+		nav{float: left; width: 840px; height: 30px; margin: 35px 0 0 0px;} 
+		nav ul li{float: left;}
+		nav ul li a{text-decoration: none; color: black;  font-size: 18px; margin: 0 25px 0 35px; font-weight: 
+600;}
+		#nav000> ul> li>a:hover{color:gray;}
+
+		.nav101{width: 1200px; height: 430px; background-color: black; opacity: 0.9; margin: 70px 0 0 0px; 
+
+position: relative; z-index: 990;}
+		.nav101 >ul >li >a{color: #fff; text-decoration: none;}
+		.nav201{float: left; margin: 10px 30px;}
+		.navimg{float: left; margin: 180px 0 0 20px;}
+
+		#menu101{float: left; width: 180px; height:40px; margin: 30px 0 0px 0px;}
+		#menu201 {width: 160px; margin: 0 auto;}
+		#menu201 >img{width: 100%;}
+		#menu202 {width: 150px; margin: 0px 20px -10px 15px;}
+
+		#menulight101{float: right; width: 180px; height:40px; margin: 30px 0 0px 0px;}
+
+
+		#menutoggle {background-color: #000; width:1200px; height: 280px; position: absolute; top: 165px; left: 0; z-index: 999; opacity: 0.8; display: flex; flex-flow: row; justify-content: space-evenly; }
+		.menutoggle2 {display: flex; align-items: center;}
+		#menutoggle h3 {color:#fff; font-size: 23px;}
+		#menutoggle h4 {color:#fff; margin:25px 0px; font-size: 18px;}
+		#menutoggle p {color:#fff; margin: 10px 0px; font-size: 15px;}
+		#menutoggle p:hover {color:#ff5c59;}
+
+
+
+		/*푸터시작*/
+
+		footer{width: 100%; height: 300px; margin: 0 auto;}
+		#footer01{width:100%; height:43px; border-top: 1px solid #d9d9d9; border-bottom: 1px solid #d9d9d9;  margin: 50px 0 0px; }
+		#footer1{width: 1200px; height: 43px; padding: 12px 0px; margin:0 auto;}
+		#footer1>span{font-size: 12px; margin: 0 8px 0 0px;}
+		#footer1>span>a{text-decoration: none; color: #383241;}
+		#footernav{font-weight: bold;}
+		#footer02{width:1200px; height:220px; margin: 0 auto;}
+		#footer2{width: 850px; height: 210px; padding:20px 0 0 0px; float:left;}
+			#footer2>img{margin: 0px 0 93px 0px;}
+			#footer2>p{font-size: 12px; color: #383241; margin: 0px 0 0 15px; display: inline-block; width: 640px; height: 140px;line-height: 20px;}
+			#footer2>p>a{text-decoration: none; color: #383241;}
+		#footer3{width: 210px; height: 240px; float: right; padding: 20px 0 0 0px;}
