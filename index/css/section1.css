@@ -86,11 +86,11 @@ canvas {
 #section1text span {
   display: inline-block;
   font-family: 'Montserrat', sans-serif;
-  font-size: 7vw;
+  font-size: 8vw;
   text-transform: uppercase;
   line-height: .8;
   transition: ease-out .6s;
 }
 #lastspan1, #lastspan2 {
-  font-size: 3vw !important;
+  font-size: 4vw !important;
 }
