@@ -106,7 +106,8 @@ h3 {font-size:1.7rem; color:#333333; margin: 5px 0px;}
 #section6-2 > div> p {font-size: 1.4rem; color: #fbb03b; font-weight: bold; margin:20px 0px;}
 #section6-2 span {font-size:1rem; font-weight: 100;}
 
-#mypic {width: 175px; height: 240px; background-color: tan;}
+#mypic {width: 175px; height: 240px;}
+#mypic img {width:100%;}
 
 
 
