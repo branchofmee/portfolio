@@ -35,8 +35,8 @@
 		.menubox3 {font-size: 1.2rem; color: #777777; text-align: left; padding: 5px 0px;}
 		.menubox4 {display: flex; flex-flow: row wrap; font-family: Karla, sans-serif;}
 		.menubox5 {font-size: 1.3rem; color: #777777;}
-		#section7 h4 {color: whiter; font-size: 2.7rem; font-family: Oswald, sans-serif;}
-		#section7 h3 {color: whiter; font-size: 2.7rem; font-family: Oswald, sans-serif; background-color: transparent;}
+		#section7 h4 {font-size: 2.7rem; font-family: Oswald, sans-serif;}
+		#section7 h3 {font-size: 2.7rem; font-family: Oswald, sans-serif; background-color: transparent;}
 		#section7 p {color: #fff; font-size: 1.5rem; margin: 15px;}
 		#section7 span {color: gray; font-size: 1.4rem; margin: 10px 0 0 0px; display: inline-block;}
 		.section731 {text-align: left; padding: 0 30px;}

@@ -62,7 +62,7 @@
     .inner2-1-1 > video {width:320px; height: 680px; border-radius: 50px;}
 
     
-    #section10 .innerwrap{display: flex; flex-flow: row warp; justify-content: space-between; padding: 100px 0px;}
+    #section10 .innerwrap{display: flex; flex-flow: row wrap; justify-content: space-between; padding: 100px 0px;}
     #section10-1 {width: 400px; height: 400px; margin: -150px 0 0 0px;}
     #section10-1 iframe {width: 100%; height: 100%;} 
     #section10 h2 {font-size: 4.1rem;}

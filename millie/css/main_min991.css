@@ -56,7 +56,7 @@
     .inner2-1-1 > img {border-radius: 50px;}
     .inner2-1-1 > video {width:320px; height: 680px; border-radius: 50px;}
 
-    #section10 .innerwrap{display: flex; flex-flow: row warp; justify-content: space-around; padding: 100px 0px;}
+    #section10 .innerwrap{display: flex; flex-flow: row wrap; justify-content: space-around; padding: 100px 0px;}
     #section10-1 {width: 400px; height: 400px; margin: -150px 0 0 0px;}
     #section10-1 iframe {width: 100%; height: 100%;}
 

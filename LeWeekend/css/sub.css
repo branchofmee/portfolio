@@ -10,7 +10,7 @@
 		#picbox{width: 450px; height: 562px;  margin: 0 100px 0 0px; float: left;}
 		#picbox2{width: 450px; height: 450px; overflow: hidden;}
 		#picbox2 >div>img{width: 450px; height: 450px;}
-		#picbox2>div>img:not{:first-child}{display: none;}
+		#picbox2>div>img:not(:first-child) {display: none;}
 		#picbox3>div:hover{cursor: pointer;}
 
 		.subprevimg{width: 92px; height: 92px; float: left; margin: 10px 5px 0 5px;}
@@ -73,7 +73,7 @@
 		#subsection301{width: 1200px; height: 45px;  padding: 14px 0 0px 10px; border-bottom: 1px solid #9999; border-top: 1px solid #9999;}
 			#subsection301 ul li{float: left; font-size: 15px;  margin: 0 20px 0 0px;}
 			#subsection301 ul li a{text-decoration: none; color: gray;}
-		#subsection302{width: 200px; height: 20; padding: 20px 0px;}
+		#subsection302{width: 200px; height: 20px; padding: 20px 0px;}
 		#subsection303{width: 1200px; height: 5140px;}
 			.in303-1{width: 300px; height: 401px; margin: 25px 450px;}
 			.in303-2{width: 900px; height: 90px; margin: 12px 150px;}
@@ -139,8 +139,8 @@
 				#subsection602-2>input[type="text"]{border: none; margin: 10px 0 0 10px; padding: 7px}
 				#subsection602-2>textarea{border: none; margin: 10px;}
 				#subsection602-2>a>div{width: 80px; height: 70px; display: inline-block; background-color: #444; color: #ffff; padding: 25px 25px; float: right; margin: 10px 10px 30px 0px; font-size: 13px;}
-			 #subsection602>p{font-size: 13px; color: gray; margin: 10px 10px 0 0px; display: inline-block;}
-			 #subsection602>input[type="button"]{margin: 0px 10px; padding: 0 10px; font-size: 11px; background-color: #ffff; border: 1px solid #9999; color: gray;}
+			#subsection602>p{font-size: 13px; color: gray; margin: 10px 10px 0 0px; display: inline-block;}
+			#subsection602>input[type="button"]{margin: 0px 10px; padding: 0 10px; font-size: 11px; background-color: #ffff; border: 1px solid #9999; color: gray;}
 
 		#subsection603{width: 575px; height: 610px; float: left; margin: 60px 0 0 0px;}
 			#subsection603-1>div{width: 180px; height: 260px; float: left; margin: 5px 0 15px 10px;}

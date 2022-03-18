@@ -52,7 +52,7 @@
 	.subsec050102 {width: 100%;}
 	input[type=text] {width: 100%; padding: 15px 0px; background-color: transparent; border: none; color: #999; border-bottom: 1px solid #9293bc !important;}
 	input[type=search] {padding: 10px; border: none; width: 100%;}
-	button {border: none; padding: none; background: linear-gradient(120deg, #505add 0%, #df42b1); cursor: pointer;}
+	button {border: none; padding: 0; background: linear-gradient(120deg, #505add 0%, #df42b1); cursor: pointer;}
 
 	.fa-search {font-size: 20px; color: #fff; background-color: transparent; padding: 0px 10px;}
 

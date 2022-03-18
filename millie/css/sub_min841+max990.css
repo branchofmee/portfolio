@@ -6,7 +6,7 @@
 
   .fontstyle4 {font-size: 3.3rem; color: #242424; font-style: italic; margin: 0 20px;}
 
-  #slider1 > .innerwrap {padding: 0px; display: column;}
+  #slider1 > .innerwrap {padding: 0px;}
   #slider2 img {width: 100%;}
 
   #subsection1-3-2 {padding: 70px 0px 20px 0px; display: flex; flex-flow: column; align-items: center;}
