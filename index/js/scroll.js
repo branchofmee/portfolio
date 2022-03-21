@@ -30,7 +30,7 @@ $(function () {
   $('#section2 .rightbox > a > img').mouseenter(function(){
     $(this).stop().animate({
 			marginTop: "-1750px"
-		}, 6000);
+		}, 7000);
 	}).mouseleave(function () {
 		$(this).stop().animate({
 			margin: '0'
@@ -56,7 +56,7 @@ $(function () {
   $('#section4 .rightbox > a > img').mouseenter(function(){
     $(this).stop().animate({
 			marginTop: "-1580px"
-		}, 4000);
+		}, 5000);
 	}).mouseleave(function () {
 		$(this).stop().animate({
 			margin: '0'
@@ -69,7 +69,7 @@ $(function () {
   $('#section5 .rightbox > a > img').mouseenter(function(){
     $(this).stop().animate({
 			marginTop: "-1500px"
-		}, 4000);
+		}, 5000);
 	}).mouseleave(function () {
 		$(this).stop().animate({
 			margin: '0'
