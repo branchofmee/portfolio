@@ -189,3 +189,15 @@
     .visible {display : block;}
     .showthis {opacity: 0; transform: translate(0px, 40px); transition: all ease 1s;}
     
+
+
+
+    .section4-1 {position: relative}
+    .section4-1-btnleft p {font-size: 30px; font-weight: bolder;}
+    .section4-1-btnleft {width:30px; text-align: center; background-color: #c0bfbf; border-radius: 15px;  position: absolute; top:30%; left:-10px;}
+    .section4-1-btnleft:hover {cursor: pointer;}
+
+    .section4-1-btnright p {font-size: 30px; font-weight: bolder;}
+    .section4-1-btnright {width:30px; text-align: center; background-color: #c0bfbf; border-radius: 15px;  position: absolute; top:30%; right:-10px;}
+    .section4-1-btnright:hover {cursor: pointer;}
+    /*section4 도서 썸네일 모바일 사이즈일 때 클릭해서 슬라이드하기 밑작업용*/
