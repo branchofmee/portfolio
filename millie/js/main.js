@@ -147,18 +147,16 @@ $(document).ready(function(){
 
 
 
-
-
 $(function () {
     function prev() {
-        $('#li1 li:last').prependTo('#li1');    //$(A).prependTo(B) : A 가 B 사이의 처음에 추가 된다.
-        $('#li1').css('margin-left', -145);    //$('.slide').css({marginLeft:-1000}); 
+        $('#li1 li:last').prependTo('#li1');
+        $('#li1').css('margin-left', -145);
         $('#li1').stop().animate({ marginLeft: 0 }, 1000);
     }
 
     function next() {
         $('#li1').stop().animate({ marginLeft: -145 }, function () {
-            $('#li1 li:first').appendTo('#li1');    //$(A).appendTo(B) : A 가 B 사이의 마지막에 추가 된다.
+            $('#li1 li:first').appendTo('#li1');
             $('#li1').css({ marginLeft: 0 });
         });
     }
@@ -174,14 +172,14 @@ $(function () {
 
 $(function () {
     function prev() {
-        $('#li2 li:last').prependTo('#li2');    //$(A).prependTo(B) : A 가 B 사이의 처음에 추가 된다.
-        $('#li2').css('margin-left', -145);    //$('.slide').css({marginLeft:-1000}); 
+        $('#li2 li:last').prependTo('#li2');
+        $('#li2').css('margin-left', -145);
         $('#li2').stop().animate({ marginLeft: 0 }, 1000);
     }
 
     function next() {
         $('#li2').stop().animate({ marginLeft: -145 }, function () {
-            $('#li2 li:first').appendTo('#li2');    //$(A).appendTo(B) : A 가 B 사이의 마지막에 추가 된다.
+            $('#li2 li:first').appendTo('#li2');
             $('#li2').css({ marginLeft: 0 });
         });
     }
@@ -197,14 +195,14 @@ $(function () {
 
 $(function () {
     function prev() {
-        $('#li3 li:last').prependTo('#li3');    //$(A).prependTo(B) : A 가 B 사이의 처음에 추가 된다.
-        $('#li3').css('margin-left', -145);    //$('.slide').css({marginLeft:-1000}); 
+        $('#li3 li:last').prependTo('#li3');
+        $('#li3').css('margin-left', -145);
         $('#li3').stop().animate({ marginLeft: 0 }, 1000);
     }
 
     function next() {
         $('#li3').stop().animate({ marginLeft: -145 }, function () {
-            $('#li3 li:first').appendTo('#li3');    //$(A).appendTo(B) : A 가 B 사이의 마지막에 추가 된다.
+            $('#li3 li:first').appendTo('#li3');
             $('#li3').css({ marginLeft: 0 });
         });
     }
@@ -221,7 +219,7 @@ $(function () {
 $(function () {
     function prev() {
         $('#li4 li:last').prependTo('#li4');    //$(A).prependTo(B) : A 가 B 사이의 처음에 추가 된다.
-        $('#li4').css('margin-left', -145);    //$('.slide').css({marginLeft:-1000}); 
+        $('#li4').css('margin-left', -145);
         $('#li4').stop().animate({ marginLeft: 0 }, 1000);
     }
 

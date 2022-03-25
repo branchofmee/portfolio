@@ -188,7 +188,6 @@
     .invisible {display: none;}
     .visible {display : block;}
     .showthis {opacity: 0; transform: translate(0px, 40px); transition: all ease 1s;}
-    
 
 
 
