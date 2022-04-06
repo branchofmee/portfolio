@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+@media(max-width: 767px){
+  html {font-size: 12px;}
+  .innerwrap {width:100%; height: 200vh; margin: 0 auto; display:flex; flex-flow:row wrap;}
+  .leftbox {width:100%; height: 100vh; padding: 0px; padding: 0px 30px;}
+  .rightbox {width: 750px; height: 100vh; overflow: hidden;}
+  .phonbox {width: 230px; height: 485px; border-radius: 35px; overflow: hidden; position: absolute; bottom: 0px; left: 0px; background-size: contain;}
+
+  #section6 {background-color: #333333; max-width: 767px;}
+
+  #section6-1 {width:100%; padding: 70px 30px 100px 0px; display: flex; flex-flow: column; justify-content: space-between; align-items: center;}
+  #section6-1-1 {display: none;}
+  #section6-1-2 {width: 95%; display: flex; flex-flow: row wrap;}
+  #section6-1-2 > div {width: 75%; margin: 10px 50px 20px 0px;}
+
+  #section6-2 {display: none; width:100%; background-color: #444444; padding: 50px 0px; display: flex; flex-flow: column; justify-content: space-around; align-items: center;}
+}

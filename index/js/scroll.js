@@ -19,7 +19,7 @@ $(window).on("wheel", function(e){
 
 		page--;
 	}
-	var posTop = (page-1) * $(window).height();
+	let posTop = (page-1) * $(window).height();
 
 	$html.animate({scrollTop : posTop}, {duration:500, easing:"linear"});
 });
