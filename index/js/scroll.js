@@ -1,3 +1,4 @@
+/*
 window.addEventListener("wheel", function(e){
 	e.preventDefault();
 },{passive : false});
@@ -23,7 +24,7 @@ $(window).on("wheel", function(e){
 
 	$html.animate({scrollTop : posTop}, {duration:500, easing:"linear"});
 });
-//화면 한 단씩 스크롤
+한단씩 스크롤 현재 주석처리*/
 
 
 $(function () {
